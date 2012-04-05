@@ -1,0 +1,27 @@
+/************************************************
+		*CANNY ALGORITHM*
+
+    * Step 1: Apply a Gaussian blur    
+    * Step 2: Find edge Gradient strength and direction
+    * Step 3: Trace along the edges
+    * Step 4: Non-maximum Suppression
+**************************************************/
+
+
+
+1. Compile using command
+
+gcc -o viz vizfinal.c -I/usr/local/include/opencv -L/usr/local/lib -lcxcore -lcv -lcvaux -lhighgui -lml
+
+2 .run 
+
+./viz
+
+3. input file name
+
+lena.bmp
+
+4.output files
+
+output1.jpg  : After Applying First three Step of Canny  Algorithm
+output2.jpg  : After Applying All Four Step of Canny Algorithm
